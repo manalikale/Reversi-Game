@@ -10,3 +10,6 @@ The rules of the Reversi game can be found e.g. in http://en.wikipedia.org/wiki/
 In this assignment, I have written a program to implement the following algorithms for both min and max players.
 2.1 Minimax using number of pieces as an evaluation function ;
 2.2 Alpha-Beta pruning using number of pieces as an evaluation function ; 2.3 Alpha-Beta pruning using positional weights as an evaluation function ;
+
+3. Command to execute the program
+reversi -t <task> -d < cutting_off_depth> -i <input_file> -op <output_path> -ol <output_log>
